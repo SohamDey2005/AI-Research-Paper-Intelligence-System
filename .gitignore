@@ -1,0 +1,26 @@
+# Python
+backend/venv/
+__pycache__/
+*.pyc
+
+# Environment
+backend/.env
+
+# Database
+backend/papers.db
+
+# Large dataset files
+backend/data/arxiv-metadata-oai-snapshot.json
+backend/data/paper_embeddings.npy
+backend/data/paper_faiss.index
+backend/data/ai_ml_papers.csv
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
